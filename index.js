@@ -95,6 +95,7 @@ movielinereader.on('line', function(line) {
 
     // Extract the title
     var movieTitle = movieRegex.exec(line)[1];
+    updateProgressLine(movieTitle)
 
     // Attempt to correct if needed
     if (corrections.movies[movieTitle]) {
