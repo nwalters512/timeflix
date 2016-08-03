@@ -1,6 +1,6 @@
 # timeflix
 
-A Node.js console app that aims to provide a rough estimate of how much Netflix you've watched in your life.
+A Node.js console app that aims to provide a rough estimate of how much Netflix you've watched in your life
 
 ## Usage
 
