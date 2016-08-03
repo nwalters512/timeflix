@@ -40,11 +40,13 @@ Netflix [shut down their public API](https://techcrunch.com/2014/11/16/netflix-a
 
 When copying and pasting the table from Chrome (I didn't test on other browsers), each line looks, generally speaking, like one of the following:
 
-> 7/2/14→Attack on Titan: "To You, After 2,000 Years: The Fall of Shiganshina, Part 1"→Report a problem→×
->
-> 6/30/14→American Dad!: Season 2: "American Dream Factory"→Report a problem→×
->
-> 4/19/14→Mean Girls→Report a problem→×
+```
+6/30/14→American Dad!: Season 2: "American Dream Factory"→Report a problem→×
+
+7/2/14→Attack on Titan: "To You, After 2,000 Years: The Fall of Shiganshina, Part 1"→Report a problem→×
+
+4/19/14→Mean Girls→Report a problem→×
+```
 
 Note that `→` represents a tab character. From these examples, we can write three "formal" patterns that a line will follow.
 
