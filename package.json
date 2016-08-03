@@ -1,0 +1,20 @@
+{
+  "name": "timeflix",
+  "version": "1.0.0",
+  "description": "Calculates how much time you've spent watching Netflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --harmony"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "line-by-line": "^0.1.5",
+    "request": "^2.74.0",
+    "suspend": "^0.7.0",
+    "sync-request": "^3.0.1",
+    "underscore": "^1.8.3"
+  }
+}
